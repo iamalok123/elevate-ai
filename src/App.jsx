@@ -15,6 +15,7 @@ import ActivityCatalog from './components/activities/ActivityCatalog';
 import Mentorship from './components/mentorship/Mentorship';
 import EnhancedLayout from './components/layout/EnhancedLayout';
 import Reports from './components/reports/Reports';
+import NotFound from './components/common/NotFound';
 
 // Protected Route component
 const ProtectedRoute = ({ children, allowedRoles }) => {
@@ -138,6 +139,9 @@ function AppContent() {
               </ProtectedRoute>
             } 
           />
+          
+          {/* 404 Route - must be last */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
