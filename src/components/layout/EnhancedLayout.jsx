@@ -86,7 +86,7 @@ const EnhancedLayout = ({ children }) => {
         />
         <div className={`fixed inset-y-0 left-0 flex w-80 flex-col bg-white shadow-xl transform transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
           <div className="flex h-16 items-center justify-between px-4 border-b bg-gradient-to-r from-blue-600 to-indigo-600">
-            <span className="text-xl font-bold text-white">IDP System</span>
+            <span className="text-xl font-bold text-white">Elevate AI</span>
             <button
               onClick={() => setSidebarOpen(false)}
               className="text-white hover:text-gray-200 transition-colors"
@@ -137,8 +137,8 @@ const EnhancedLayout = ({ children }) => {
       {/* Desktop sidebar */}
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-80 lg:flex-col">
         <div className="flex flex-col flex-grow bg-white border-r border-gray-200 shadow-lg">
-          <div className="flex items-center h-16 px-6 border-b bg-gradient-to-r from-blue-600 to-indigo-600">
-            <span className="text-xl font-bold text-white">IDP System</span>
+          <div className="flex items-center h-16 px-25 border-b bg-gradient-to-r from-blue-600 to-indigo-600">
+            <span className="text-xl font-bold  text-white">Elevate AI</span>
           </div>
           <nav className="flex-1 px-4 py-6 space-y-2">
             {currentNavigation.map((item) => (
