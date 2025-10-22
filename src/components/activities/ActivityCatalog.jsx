@@ -19,7 +19,7 @@ const ActivityCatalog = () => {
   const filteredActivities = activities.filter(activity => {
     const matchesFilter = filter === 'all' || activity.type === filter || activity.category === filter;
     const matchesSearch = activity.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         activity.description.toLowerCase().includes(searchTerm.toLowerCase());
+                          activity.description.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesFilter && matchesSearch;
   });
 
@@ -96,7 +96,7 @@ const ActivityCatalog = () => {
         </div>
       </div>
 
-      {/* Filters and Search */}
+      {/* Filters and Search */} // Need to add debouncing for efficient search
       <div className="bg-white rounded-lg shadow p-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
@@ -140,7 +140,7 @@ const ActivityCatalog = () => {
         </div>
       </div>
 
-      {/* My Activities (for employees) */}
+      {/* My Activities (for employees) */} // Need to add debouncing for efficient search
       {role === 'employee' && userActivities.length > 0 && (
         <div className="bg-white rounded-lg shadow p-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">My Activities</h2>

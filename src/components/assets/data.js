@@ -3,12 +3,12 @@
 
 export const features = [
     {
-      icon: "🟣", // Replace with your actual icon component or image
+      icon: "🟣",
       title: "Built for impact",
       description: "We identify and nurture a truly diverse team of designers, developers and marketers"
     },
     {
-      icon: "🔴", // Replace with your actual icon component or image
+      icon: "🔴",
       title: "In sync with you",
       description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
     }
@@ -60,26 +60,26 @@ const services = [
       description: "Nothing the copy said could convince her.",
       link: "#learn-more"
     }
-  ]
+]
+
 
 //   testimonials section
-
 const testimonials = [
     {
       id: 1,
-      name: "Robin Ayala Doe", 
+      name: "Ravi Kumar", 
       image: "https://randomuser.me/api/portraits/men/77.jpg",
       text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
     },
     {
       id: 2,
-      name: "John De marli",
+      name: "Ana de arias",
       image: "https://randomuser.me/api/portraits/women/90.jpg", 
       text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
     },
     {
       id: 3,
-      name: "Rowhan Smith",
+      name: "Mickel Smith",
       image: "https://randomuser.me/api/portraits/men/90.jpg",
       text: "When she reached the first hills of the Mountains, she had a last view back on the of her hometown Bookmarksgrove, the headline.",
     },

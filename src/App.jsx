@@ -16,7 +16,7 @@ import Mentorship from './components/mentorship/Mentorship';
 import EnhancedLayout from './components/layout/EnhancedLayout';
 import Reports from './components/reports/Reports';
 import NotFound from './components/common/NotFound';
-import LandingPage from './components/common/LandingPage'; // ✅ new Landing Page
+import LandingPage from './components/common/LandingPage'; 
 
 // Protected Route component
 const ProtectedRoute = ({ children, allowedRoles }) => {
@@ -57,7 +57,7 @@ function AppContent() {
       <div className="min-h-screen bg-gray-50">
         <Routes>
           {/* Public routes */}
-          <Route path="/" element={<LandingPage />} /> {/* ✅ Landing Page as default */}
+          <Route path="/" element={<LandingPage />} /> 
           <Route
             path="/login"
             element={isAuthenticated ? <RoleRedirect /> : <EnhancedLogin />}

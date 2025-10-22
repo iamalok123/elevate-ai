@@ -2,6 +2,10 @@
 
 A **professional, demo-ready** ReactJS application built with modern technologies for managing employee development plans, activities, and mentorship programs. Features enhanced UI/UX, secure authentication, loading states, and smooth animations.
 
+## Live Preview
+[Elevate AI](https://idp-demo-theta.vercel.app/)
+
+
 ## ✨ Key Features
 
 ### 🔐 **Enhanced Multi-Role Authentication**
@@ -123,13 +127,13 @@ A **professional, demo-ready** ReactJS application built with modern technologie
 ## 🔑 **Demo Credentials**
 
 ### **Employee Account**
-- **Email**: `john.smith@company.com`
-- **Password**: `password123`
+- **Email**: `alok.hotta@company.com`
+- **Password**: `iamalok@123`
 - **Access**: Personal dashboard, IDP generation, activity catalog
 
 ### **Mentor Account**
-- **Email**: `david.wilson@company.com`
-- **Password**: `password123`
+- **Email**: `ritesh.das@company.com`
+- **Password**: `iamritesh@123`
 - **Access**: Mentee management, session tracking, progress analytics
 
 ### **HR Account**

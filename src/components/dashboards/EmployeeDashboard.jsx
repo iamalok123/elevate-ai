@@ -1,3 +1,5 @@
+// This is the old EmployeeDashboard component for reference not used in actual deployment , I have enhanced it and moved it to EmployeeDashboard
+
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 

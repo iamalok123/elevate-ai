@@ -19,13 +19,13 @@ export const useAuth = () => {
       
       const validCredentials = {
         'employee': [
-          { email: 'john.smith@company.com', password: 'password123', name: 'John Smith', id: 1 },
-          { email: 'sarah.johnson@company.com', password: 'password123', name: 'Sarah Johnson', id: 2 },
-          { email: 'mike.chen@company.com', password: 'password123', name: 'Mike Chen', id: 3 },
+          { email: 'alok.hotta@company.com', password: 'iamalok@123', name: 'Alok Hotta', id: 1 },
+          { email: 'Sathi.ghatuary@company.com', password: 'iamsathi@123', name: 'Sathi Ghatuary', id: 2 },
+          { email: 'yash.sharma@company.com', password: 'iamyash@123', name: 'Yash Sharma', id: 3 },
         ],
         'mentor': [
-          { email: 'david.wilson@company.com', password: 'password123', name: 'David Wilson', id: 4 },
-          { email: 'lisa.brown@company.com', password: 'password123', name: 'Lisa Brown', id: 5 },
+          { email: 'animesh.sahoo@company.com', password: 'iamanimesh@123', name: 'Animesh Sahoo', id: 4 },
+          { email: 'ritesh.das@company.com', password: 'iamritesh@123', name: 'Ritesh Das', id: 5 },
         ],
         'hr': [
           { email: 'hr@company.com', password: 'password123', name: 'HR Manager', id: 6 },

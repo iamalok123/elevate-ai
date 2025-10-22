@@ -1,6 +1,4 @@
 // Security utilities for the IDP application
-
-// Sanitize user input to prevent XSS attacks
 export const sanitizeInput = (input) => {
   if (typeof input !== 'string') return input;
   

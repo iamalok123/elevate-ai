@@ -1,3 +1,5 @@
+// This is the production logout component
+
 import React, { useState, useEffect, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, useLocation, Link } from 'react-router-dom';

@@ -167,8 +167,8 @@ const HRDashboard = () => {
             {Object.entries(performanceRanges).map(([range, count]) => {
               const percentage = Math.round((count / totalEmployees) * 100);
               const color = range === '90-100' ? 'bg-green-500' :
-                           range === '80-89' ? 'bg-blue-500' :
-                           range === '70-79' ? 'bg-yellow-500' : 'bg-red-500';
+                            range === '80-89' ? 'bg-blue-500' :
+                            range === '70-79' ? 'bg-yellow-500' : 'bg-red-500';
               return (
                 <div key={range} className="space-y-1">
                   <div className="flex justify-between text-sm">

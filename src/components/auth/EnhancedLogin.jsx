@@ -1,3 +1,5 @@
+// This is the production login component
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
@@ -40,8 +42,8 @@ const EnhancedLogin = () => {
   };
 
   const demoCredentials = {
-    employee: { email: 'john.smith@company.com', password: 'password123' },
-    mentor: { email: 'david.wilson@company.com', password: 'password123' },
+    employee: { email: 'alok.hotta@company.com', password: 'iamalok@123' },
+    mentor: { email: 'ritesh.das@company.com' , password: 'iamritesh@123' },
     hr: { email: 'hr@company.com', password: 'password123' }
   };
 
@@ -175,8 +177,8 @@ const EnhancedLogin = () => {
         <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
           <h3 className="text-sm font-medium text-blue-900 mb-3">Demo Credentials:</h3>
           <div className="space-y-2 text-xs text-blue-800">
-            <div><strong>Employee:</strong> john.smith@company.com / password123</div>
-            <div><strong>Mentor:</strong> david.wilson@company.com / password123</div>
+            <div><strong>Employee:</strong> alok.hotta@company.com / iamalok@123</div>
+            <div><strong>Mentor:</strong> ritesh.das@company.com / iamritesh@123</div>
             <div><strong>HR:</strong> hr@company.com / password123</div>
           </div>
         </Card>

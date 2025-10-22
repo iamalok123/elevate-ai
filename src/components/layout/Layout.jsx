@@ -1,3 +1,5 @@
+// This is the old Logout component for reference not used in actual deployment , I have enhanced it and moved it to EnhancedLogout
+
 import { useState, useEffect, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, useLocation, Link } from 'react-router-dom';

@@ -4,8 +4,8 @@ import { createSlice } from '@reduxjs/toolkit';
 const sampleEmployees = [
   {
     id: 1,
-    name: 'John Smith',
-    email: 'john.smith@company.com',
+    name: 'Alok Hotta',
+    email: 'alok.hotta@company.com',
     department: 'Engineering',
     designation: 'Senior Software Engineer',
     skills: ['JavaScript', 'React', 'Node.js', 'Python'],
@@ -23,8 +23,8 @@ const sampleEmployees = [
   },
   {
     id: 2,
-    name: 'Sarah Johnson',
-    email: 'sarah.johnson@company.com',
+    name: 'Sathi Ghatuary',
+    email: 'Sathi.ghatuary@company.com',
     department: 'Marketing',
     designation: 'Marketing Specialist',
     skills: ['Digital Marketing', 'SEO', 'Analytics', 'Content Creation'],
@@ -42,8 +42,8 @@ const sampleEmployees = [
   },
   {
     id: 3,
-    name: 'Mike Chen',
-    email: 'mike.chen@company.com',
+    name: 'Yash Sharma',
+    email: 'yash.sharma@company.com',
     department: 'Sales',
     designation: 'Sales Representative',
     skills: ['CRM', 'Negotiation', 'Client Relations', 'Analytics'],

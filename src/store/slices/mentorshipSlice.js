@@ -58,8 +58,8 @@ const sampleMentorships = [
 const mentors = [
   {
     id: 4,
-    name: 'David Wilson',
-    email: 'david.wilson@company.com',
+    name: 'Animesh Sahoo',
+    email: 'animesh.sahoo@company.com',
     department: 'Engineering',
     designation: 'Principal Engineer',
     expertise: ['Leadership', 'Technical Architecture', 'Team Management'],
@@ -68,8 +68,8 @@ const mentors = [
   },
   {
     id: 5,
-    name: 'Lisa Brown',
-    email: 'lisa.brown@company.com',
+    name: 'Ritesh Das',
+    email: 'ritesh.das@company.com',
     department: 'Marketing',
     designation: 'Marketing Director',
     expertise: ['Marketing Strategy', 'Brand Management', 'Team Leadership'],

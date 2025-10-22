@@ -1,3 +1,5 @@
+// This is the old login component for reference not used in actual deployment , I have enhanced it and moved it to EnhancedLogin
+
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
