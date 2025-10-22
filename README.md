@@ -3,7 +3,7 @@
 A **professional, demo-ready** ReactJS application built with modern technologies for managing employee development plans, activities, and mentorship programs. Features enhanced UI/UX, secure authentication, loading states, and smooth animations.
 
 ## Live Preview
-[Elevate AI](https://idp-demo-theta.vercel.app/)
+[Elevate AI](https://elevate-ai-v69.vercel.app/)
 
 
 ## ✨ Key Features
